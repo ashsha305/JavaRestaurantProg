@@ -1,0 +1,52 @@
+1.0.0.0 Check-in
+    1.1.0.0 table status
+
+2.0.0.0 Ordering
+    2.1.0.0 show food options
+    2.2.0.0 allergens
+
+3.0.0.0 Payment
+        3.1.0.0 discounts
+
+4.0.0.0 Check-out
+    4.1.0.0 thanks for ordering and arrival of food
+
+5.0.0.0 Menu Card
+    5.1.0.0 add food items
+    5.2.0.0 remove food items
+    5.3.0.0 modify food items
+
+6.0.0.0 Admin
+    6.1.0.0 add table for customer
+    6.2.0.0 remove table
+    6.3.0.0 add user
+    6.4.0.0 remove user
+    6.5.0.0 reports
+
+    -------------------------------------------------
+
+ 6.1.0.0 add table for customer
+     input:
+         - table number
+         - number of guests per table
+
+ 6.2.0.0 remove table for customer
+     input:
+          - table number
+
+ 6.3.0.0 add user
+     input:
+           - email
+           - password
+
+ 6.4.0.0 remove user
+     input:
+            - email
+
+ 6.5.0.0 reports
+    - daily sale
+    - weekly sale
+    - monthly sale
+
+
+
